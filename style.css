@@ -40,6 +40,36 @@ header nav ul li a {
     font-weight: bold;
 }
 
+nav {
+    border: 2px solid #fcfcfc; 
+    border-radius: 8px; /* Membuat sudut border melengkung */
+    padding: 10px; 
+    background-color: #dfc9ac; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+
+nav ul {
+    list-style: none; /* Menghapus bullet pada list */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Membuat list item dalam satu baris */
+    gap: 15px; /* Jarak antar item */
+}
+
+nav ul li a {
+    text-decoration: none; /* Menghapus garis bawah pada link */
+    color: #ebebeb;
+    font-weight: bold;
+    transition: color 0.3s; /* Animasi saat hover */
+}
+
+nav ul li a:hover {
+    color: #fffffc; /* Warna teks saat hover */
+}
+
 section {
     padding: 40px 20px;
     text-align: center;
